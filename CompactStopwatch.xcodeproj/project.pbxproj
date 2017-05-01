@@ -11,8 +11,8 @@
 		92C95B131E3D796300BFA11D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C95B121E3D796300BFA11D /* ViewController.swift */; };
 		92C95B151E3D796300BFA11D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92C95B141E3D796300BFA11D /* Assets.xcassets */; };
 		92C95B181E3D796300BFA11D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C95B161E3D796300BFA11D /* Main.storyboard */; };
-		92C95B231E3D796300BFA11D /* StopwatchMacOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C95B221E3D796300BFA11D /* StopwatchMacOSTests.swift */; };
-		92C95B2E1E3D796300BFA11D /* StopwatchMacOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C95B2D1E3D796300BFA11D /* StopwatchMacOSUITests.swift */; };
+		92C95B231E3D796300BFA11D /* CompactStopwatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C95B221E3D796300BFA11D /* CompactStopwatchTests.swift */; };
+		92C95B2E1E3D796300BFA11D /* CompactStopwatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C95B2D1E3D796300BFA11D /* CompactStopwatchUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +40,10 @@
 		92C95B171E3D796300BFA11D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92C95B191E3D796300BFA11D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92C95B1E1E3D796300BFA11D /* CompactStopwatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompactStopwatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		92C95B221E3D796300BFA11D /* StopwatchMacOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchMacOSTests.swift; sourceTree = "<group>"; };
+		92C95B221E3D796300BFA11D /* CompactStopwatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactStopwatchTests.swift; sourceTree = "<group>"; };
 		92C95B241E3D796300BFA11D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92C95B291E3D796300BFA11D /* CompactStopwatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompactStopwatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		92C95B2D1E3D796300BFA11D /* StopwatchMacOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchMacOSUITests.swift; sourceTree = "<group>"; };
+		92C95B2D1E3D796300BFA11D /* CompactStopwatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactStopwatchUITests.swift; sourceTree = "<group>"; };
 		92C95B2F1E3D796300BFA11D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,8 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				92C95B0F1E3D796300BFA11D /* CompactStopwatch */,
-				92C95B211E3D796300BFA11D /* StopwatchMacOSTests */,
-				92C95B2C1E3D796300BFA11D /* StopwatchMacOSUITests */,
+				92C95B211E3D796300BFA11D /* CompactStopwatchTests */,
+				92C95B2C1E3D796300BFA11D /* CompactStopwatchUITests */,
 				92C95B0E1E3D796300BFA11D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,22 +104,23 @@
 			path = CompactStopwatch;
 			sourceTree = "<group>";
 		};
-		92C95B211E3D796300BFA11D /* StopwatchMacOSTests */ = {
+		92C95B211E3D796300BFA11D /* CompactStopwatchTests */ = {
 			isa = PBXGroup;
 			children = (
-				92C95B221E3D796300BFA11D /* StopwatchMacOSTests.swift */,
+				92C95B221E3D796300BFA11D /* CompactStopwatchTests.swift */,
 				92C95B241E3D796300BFA11D /* Info.plist */,
 			);
-			path = StopwatchMacOSTests;
+			path = CompactStopwatchTests;
 			sourceTree = "<group>";
 		};
-		92C95B2C1E3D796300BFA11D /* StopwatchMacOSUITests */ = {
+		92C95B2C1E3D796300BFA11D /* CompactStopwatchUITests */ = {
 			isa = PBXGroup;
 			children = (
-				92C95B2D1E3D796300BFA11D /* StopwatchMacOSUITests.swift */,
+				92C95B2D1E3D796300BFA11D /* CompactStopwatchUITests.swift */,
 				92C95B2F1E3D796300BFA11D /* Info.plist */,
 			);
-			path = StopwatchMacOSUITests;
+			name = CompactStopwatchUITests;
+			path = CompactStopwatchTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,7 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92C95B231E3D796300BFA11D /* StopwatchMacOSTests.swift in Sources */,
+				92C95B231E3D796300BFA11D /* CompactStopwatchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92C95B2E1E3D796300BFA11D /* StopwatchMacOSUITests.swift in Sources */,
+				92C95B2E1E3D796300BFA11D /* CompactStopwatchUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,6 +1,6 @@
 //
-//  StopwatchMacOSUITests.swift
-//  StopwatchMacOSUITests
+//  CompactStopwatchUITests.swift
+//  CompactStopwatchUITests
 //
 //  Created by Anthony on 1/28/17.
 //  Copyright © 2017 Anthony Attard. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class StopwatchMacOSUITests: XCTestCase {
+class CompactStopwatchUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
