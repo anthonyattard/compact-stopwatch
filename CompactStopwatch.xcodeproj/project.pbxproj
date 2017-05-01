@@ -75,7 +75,7 @@
 		92C95B041E3D796300BFA11D = {
 			isa = PBXGroup;
 			children = (
-				92C95B0F1E3D796300BFA11D /* StopwatchMacOS */,
+				92C95B0F1E3D796300BFA11D /* CompactStopwatch */,
 				92C95B211E3D796300BFA11D /* StopwatchMacOSTests */,
 				92C95B2C1E3D796300BFA11D /* StopwatchMacOSUITests */,
 				92C95B0E1E3D796300BFA11D /* Products */,
@@ -92,7 +92,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		92C95B0F1E3D796300BFA11D /* StopwatchMacOS */ = {
+		92C95B0F1E3D796300BFA11D /* CompactStopwatch */ = {
 			isa = PBXGroup;
 			children = (
 				92C95B101E3D796300BFA11D /* AppDelegate.swift */,
@@ -101,7 +101,7 @@
 				92C95B161E3D796300BFA11D /* Main.storyboard */,
 				92C95B191E3D796300BFA11D /* Info.plist */,
 			);
-			path = StopwatchMacOS;
+			path = CompactStopwatch;
 			sourceTree = "<group>";
 		};
 		92C95B211E3D796300BFA11D /* StopwatchMacOSTests */ = {
@@ -402,9 +402,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 3P3C58VK5M;
-				INFOPLIST_FILE = StopwatchMacOS/Info.plist;
+				INFOPLIST_FILE = CompactStopwatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.anthonyattard.StopwatchMacOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthonyattard.CompactStopwatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -416,9 +416,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 3P3C58VK5M;
-				INFOPLIST_FILE = StopwatchMacOS/Info.plist;
+				INFOPLIST_FILE = CompactStopwatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.anthonyattard.StopwatchMacOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthonyattard.CompactStopwatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
