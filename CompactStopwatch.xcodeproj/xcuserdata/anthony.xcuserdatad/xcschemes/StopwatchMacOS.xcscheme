@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "92C95B0C1E3D796300BFA11D"
-               BuildableName = "StopwatchMacOS.app"
-               BlueprintName = "StopwatchMacOS"
-               ReferencedContainer = "container:StopwatchMacOS.xcodeproj">
+               BuildableName = "CompactStopwatch.app"
+               BlueprintName = "CompactStopwatch"
+               ReferencedContainer = "container:CompactStopwatch.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "92C95B1D1E3D796300BFA11D"
-               BuildableName = "StopwatchMacOSTests.xctest"
-               BlueprintName = "StopwatchMacOSTests"
-               ReferencedContainer = "container:StopwatchMacOS.xcodeproj">
+               BuildableName = "CompactStopwatchTests.xctest"
+               BlueprintName = "CompactStopwatchTests"
+               ReferencedContainer = "container:CompactStopwatch.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "92C95B281E3D796300BFA11D"
-               BuildableName = "StopwatchMacOSUITests.xctest"
-               BlueprintName = "StopwatchMacOSUITests"
-               ReferencedContainer = "container:StopwatchMacOS.xcodeproj">
+               BuildableName = "CompactStopwatchUITests.xctest"
+               BlueprintName = "CompactStopwatchUITests"
+               ReferencedContainer = "container:CompactStopwatch.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "92C95B0C1E3D796300BFA11D"
-            BuildableName = "StopwatchMacOS.app"
-            BlueprintName = "StopwatchMacOS"
-            ReferencedContainer = "container:StopwatchMacOS.xcodeproj">
+            BuildableName = "CompactStopwatch.app"
+            BlueprintName = "CompactStopwatch"
+            ReferencedContainer = "container:CompactStopwatch.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "92C95B0C1E3D796300BFA11D"
-            BuildableName = "StopwatchMacOS.app"
-            BlueprintName = "StopwatchMacOS"
-            ReferencedContainer = "container:StopwatchMacOS.xcodeproj">
+            BuildableName = "CompactStopwatch.app"
+            BlueprintName = "CompactStopwatch"
+            ReferencedContainer = "container:CompactStopwatch.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "92C95B0C1E3D796300BFA11D"
-            BuildableName = "StopwatchMacOS.app"
-            BlueprintName = "StopwatchMacOS"
-            ReferencedContainer = "container:StopwatchMacOS.xcodeproj">
+            BuildableName = "CompactStopwatch.app"
+            BlueprintName = "CompactStopwatch"
+            ReferencedContainer = "container:CompactStopwatch.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

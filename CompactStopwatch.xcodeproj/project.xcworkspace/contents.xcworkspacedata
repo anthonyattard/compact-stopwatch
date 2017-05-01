@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:StopwatchMacOS.xcodeproj">
+      location = "self:/Users/anthony/Documents/Projects/StopwatchMacOS copy/CompactStopwatch.xcodeproj">
    </FileRef>
 </Workspace>

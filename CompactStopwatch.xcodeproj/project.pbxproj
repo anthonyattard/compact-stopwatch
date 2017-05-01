@@ -33,16 +33,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		92C95B0D1E3D796300BFA11D /* StopwatchMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StopwatchMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C95B0D1E3D796300BFA11D /* CompactStopwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompactStopwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92C95B101E3D796300BFA11D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92C95B121E3D796300BFA11D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		92C95B141E3D796300BFA11D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92C95B171E3D796300BFA11D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92C95B191E3D796300BFA11D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		92C95B1E1E3D796300BFA11D /* StopwatchMacOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopwatchMacOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C95B1E1E3D796300BFA11D /* CompactStopwatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompactStopwatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92C95B221E3D796300BFA11D /* StopwatchMacOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchMacOSTests.swift; sourceTree = "<group>"; };
 		92C95B241E3D796300BFA11D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		92C95B291E3D796300BFA11D /* StopwatchMacOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopwatchMacOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C95B291E3D796300BFA11D /* CompactStopwatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompactStopwatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92C95B2D1E3D796300BFA11D /* StopwatchMacOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchMacOSUITests.swift; sourceTree = "<group>"; };
 		92C95B2F1E3D796300BFA11D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,9 +85,9 @@
 		92C95B0E1E3D796300BFA11D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				92C95B0D1E3D796300BFA11D /* StopwatchMacOS.app */,
-				92C95B1E1E3D796300BFA11D /* StopwatchMacOSTests.xctest */,
-				92C95B291E3D796300BFA11D /* StopwatchMacOSUITests.xctest */,
+				92C95B0D1E3D796300BFA11D /* CompactStopwatch.app */,
+				92C95B1E1E3D796300BFA11D /* CompactStopwatchTests.xctest */,
+				92C95B291E3D796300BFA11D /* CompactStopwatchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,9 +125,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		92C95B0C1E3D796300BFA11D /* StopwatchMacOS */ = {
+		92C95B0C1E3D796300BFA11D /* CompactStopwatch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92C95B321E3D796300BFA11D /* Build configuration list for PBXNativeTarget "StopwatchMacOS" */;
+			buildConfigurationList = 92C95B321E3D796300BFA11D /* Build configuration list for PBXNativeTarget "CompactStopwatch" */;
 			buildPhases = (
 				92C95B091E3D796300BFA11D /* Sources */,
 				92C95B0A1E3D796300BFA11D /* Frameworks */,
@@ -137,14 +137,14 @@
 			);
 			dependencies = (
 			);
-			name = StopwatchMacOS;
+			name = CompactStopwatch;
 			productName = StopwatchMacOS;
-			productReference = 92C95B0D1E3D796300BFA11D /* StopwatchMacOS.app */;
+			productReference = 92C95B0D1E3D796300BFA11D /* CompactStopwatch.app */;
 			productType = "com.apple.product-type.application";
 		};
-		92C95B1D1E3D796300BFA11D /* StopwatchMacOSTests */ = {
+		92C95B1D1E3D796300BFA11D /* CompactStopwatchTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92C95B351E3D796300BFA11D /* Build configuration list for PBXNativeTarget "StopwatchMacOSTests" */;
+			buildConfigurationList = 92C95B351E3D796300BFA11D /* Build configuration list for PBXNativeTarget "CompactStopwatchTests" */;
 			buildPhases = (
 				92C95B1A1E3D796300BFA11D /* Sources */,
 				92C95B1B1E3D796300BFA11D /* Frameworks */,
@@ -155,14 +155,14 @@
 			dependencies = (
 				92C95B201E3D796300BFA11D /* PBXTargetDependency */,
 			);
-			name = StopwatchMacOSTests;
+			name = CompactStopwatchTests;
 			productName = StopwatchMacOSTests;
-			productReference = 92C95B1E1E3D796300BFA11D /* StopwatchMacOSTests.xctest */;
+			productReference = 92C95B1E1E3D796300BFA11D /* CompactStopwatchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		92C95B281E3D796300BFA11D /* StopwatchMacOSUITests */ = {
+		92C95B281E3D796300BFA11D /* CompactStopwatchUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92C95B381E3D796300BFA11D /* Build configuration list for PBXNativeTarget "StopwatchMacOSUITests" */;
+			buildConfigurationList = 92C95B381E3D796300BFA11D /* Build configuration list for PBXNativeTarget "CompactStopwatchUITests" */;
 			buildPhases = (
 				92C95B251E3D796300BFA11D /* Sources */,
 				92C95B261E3D796300BFA11D /* Frameworks */,
@@ -173,9 +173,9 @@
 			dependencies = (
 				92C95B2B1E3D796300BFA11D /* PBXTargetDependency */,
 			);
-			name = StopwatchMacOSUITests;
+			name = CompactStopwatchUITests;
 			productName = StopwatchMacOSUITests;
-			productReference = 92C95B291E3D796300BFA11D /* StopwatchMacOSUITests.xctest */;
+			productReference = 92C95B291E3D796300BFA11D /* CompactStopwatchUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 92C95B081E3D796300BFA11D /* Build configuration list for PBXProject "StopwatchMacOS" */;
+			buildConfigurationList = 92C95B081E3D796300BFA11D /* Build configuration list for PBXProject "CompactStopwatch" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				92C95B0C1E3D796300BFA11D /* StopwatchMacOS */,
-				92C95B1D1E3D796300BFA11D /* StopwatchMacOSTests */,
-				92C95B281E3D796300BFA11D /* StopwatchMacOSUITests */,
+				92C95B0C1E3D796300BFA11D /* CompactStopwatch */,
+				92C95B1D1E3D796300BFA11D /* CompactStopwatchTests */,
+				92C95B281E3D796300BFA11D /* CompactStopwatchUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -284,12 +284,12 @@
 /* Begin PBXTargetDependency section */
 		92C95B201E3D796300BFA11D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 92C95B0C1E3D796300BFA11D /* StopwatchMacOS */;
+			target = 92C95B0C1E3D796300BFA11D /* CompactStopwatch */;
 			targetProxy = 92C95B1F1E3D796300BFA11D /* PBXContainerItemProxy */;
 		};
 		92C95B2B1E3D796300BFA11D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 92C95B0C1E3D796300BFA11D /* StopwatchMacOS */;
+			target = 92C95B0C1E3D796300BFA11D /* CompactStopwatch */;
 			targetProxy = 92C95B2A1E3D796300BFA11D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -436,7 +436,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.anthonyattard.StopwatchMacOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StopwatchMacOS.app/Contents/MacOS/StopwatchMacOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CompactStopwatch.app/Contents/MacOS/CompactStopwatch";
 			};
 			name = Debug;
 		};
@@ -452,7 +452,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.anthonyattard.StopwatchMacOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StopwatchMacOS.app/Contents/MacOS/StopwatchMacOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CompactStopwatch.app/Contents/MacOS/CompactStopwatch";
 			};
 			name = Release;
 		};
@@ -489,7 +489,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		92C95B081E3D796300BFA11D /* Build configuration list for PBXProject "StopwatchMacOS" */ = {
+		92C95B081E3D796300BFA11D /* Build configuration list for PBXProject "CompactStopwatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				92C95B301E3D796300BFA11D /* Debug */,
@@ -498,29 +498,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		92C95B321E3D796300BFA11D /* Build configuration list for PBXNativeTarget "StopwatchMacOS" */ = {
+		92C95B321E3D796300BFA11D /* Build configuration list for PBXNativeTarget "CompactStopwatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				92C95B331E3D796300BFA11D /* Debug */,
 				92C95B341E3D796300BFA11D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		92C95B351E3D796300BFA11D /* Build configuration list for PBXNativeTarget "StopwatchMacOSTests" */ = {
+		92C95B351E3D796300BFA11D /* Build configuration list for PBXNativeTarget "CompactStopwatchTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				92C95B361E3D796300BFA11D /* Debug */,
 				92C95B371E3D796300BFA11D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		92C95B381E3D796300BFA11D /* Build configuration list for PBXNativeTarget "StopwatchMacOSUITests" */ = {
+		92C95B381E3D796300BFA11D /* Build configuration list for PBXNativeTarget "CompactStopwatchUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				92C95B391E3D796300BFA11D /* Debug */,
 				92C95B3A1E3D796300BFA11D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
