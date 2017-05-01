@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  StopwatchMacOS
+//  CompactStopwatch
 //
 //  Created by Anthony on 1/28/17.
 //  Copyright © 2017 Anthony Attard. All rights reserved.
